@@ -37,7 +37,6 @@ Lumos.prototype = new Electronics()
 
 PC.prototype.openGame = function(nameGame){
     let listGame = ['Cyberpunk 2077', 'The Witcher 3: Wild Hunt'];
-    console.log(listGame.indexOf(nameGame))
     const checkListGame = (listGame.indexOf(nameGame) >= 0 ? `Игра ${nameGame} открывается. Хорошой игры!` : `${nameGame} данной игры нет в вашей библиотеки. Купим?`)
     console.log(checkListGame)
 }
